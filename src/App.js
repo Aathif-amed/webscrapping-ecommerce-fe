@@ -22,10 +22,6 @@ function App() {
           <Route path="/" element={<Dashboard/>}/>
           <Route path="/search" element={<Searchbar/>}/>
           <Route path="/create" element={<Createdata/>}/>
-          {/* <Route path="/createUser" element={<Usercreate/>}/>
-          <Route path="/view/:id" element={<Viewuser/>}/>
-          <Route path="/edit/:id" element={<Edituser/>}/>
-          <Route path="/delete/:id" element={<Deleteuser/>}/> */}
         </Routes>
       </div>
     </div>

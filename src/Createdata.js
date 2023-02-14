@@ -14,13 +14,11 @@ function Createdata() {
       try {
         setLoading(true);
         const data = await axios.get(
-          `https://webscraping-ecommerce.herokuapp.com/scrapData/create/${values.search}`
+          `https://web-scrapping-zdg3.onrender.com/scrapData/create/${values.search}`
         );
-        // setUserdata(data.data);
-        console.log(data.data.message);
         setLoading(false);
         setisCreated(data.data.message);
-        console.log(values.search);
+
       } catch (error) {
         console.log(error);
       }
